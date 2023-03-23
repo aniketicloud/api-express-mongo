@@ -6,7 +6,7 @@ const router = Router();
  * Product
  */
 router.get("/product", (req, res) => {
-  res.json({ message: "Hello from MongoDB" + req.mysecret });
+  res.json({ message: "Hello from MongoDB" });
 });
 router.get("/product/:id", () => {});
 router.put("/product/:id", () => {});
