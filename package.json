@@ -2,7 +2,7 @@
   "name": "api-express-mongo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
+  "main": "index.js",
   "scripts": {
     "dev": "ts-node src/index.ts",
     "start": "nodemon src/index.ts"
